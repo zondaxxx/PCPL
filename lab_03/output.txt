@@ -1,0 +1,80 @@
+$ python3 -m lab_python_fp.field
+['Ковер', 'Диван для отдыха']
+[{'title': 'Ковер', 'price': 2000}, {'title': 'Диван для отдыха'}]
+
+$ python3 -m lab_python_fp.gen_random
+[3, 2, 1, 3, 2]
+
+$ python3 -m lab_python_fp.unique
+[1, 2]
+['a', 'A', 'b', 'B']
+['a', 'b']
+[0, 1, 2]
+
+$ python3 -m lab_python_fp.sort
+[123, 100, -100, -30, 30, 4, -4, 1, -1, 0]
+[123, 100, -100, -30, 30, 4, -4, 1, -1, 0]
+
+$ python3 -m lab_python_fp.print_result
+test_1
+1
+test_2
+iu5
+test_3
+a = 1
+b = 2
+test_4
+1
+2
+
+$ python3 -m lab_python_fp.cm_timer
+time: 0.010651
+time: 0.012522
+
+$ python3 -m lab_python_fp.process_data data/data_light.json --seed 35
+
+f1: 2266 строк
+1С программист
+2-ой механик
+3-ий механик
+4-ый механик
+4-ый электромеханик
+[химик-эксперт
+ASIC специалист
+JavaScript разработчик
+[остальные строки: process_output.txt]
+
+f2: 9 строк
+Программист
+Программист / Senior Developer
+Программист 1С
+Программист C#
+Программист С++
+Программист С++/С#/Java
+Программист/ Junior Developer
+Программист/ технический специалист
+[остальные строки: process_output.txt]
+
+f3: 9 строк
+Программист с опытом Python
+Программист / Senior Developer с опытом Python
+Программист 1С с опытом Python
+Программист C# с опытом Python
+Программист С++ с опытом Python
+Программист С++/С#/Java с опытом Python
+Программист/ Junior Developer с опытом Python
+Программист/ технический специалист с опытом Python
+[остальные строки: process_output.txt]
+
+f4: 9 строк
+Программист с опытом Python, зарплата 171918 руб.
+Программист / Senior Developer с опытом Python, зарплата 143957 руб.
+Программист 1С с опытом Python, зарплата 198374 руб.
+Программист C# с опытом Python, зарплата 117265 руб.
+Программист С++ с опытом Python, зарплата 197950 руб.
+Программист С++/С#/Java с опытом Python, зарплата 144625 руб.
+Программист/ Junior Developer с опытом Python, зарплата 120191 руб.
+Программист/ технический специалист с опытом Python, зарплата 137474 руб.
+[остальные строки: process_output.txt]
+
+time: 0.002574

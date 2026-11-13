@@ -1,0 +1,26 @@
+test_lazy_consumption (test_lab.FieldTests.test_lazy_consumption) ... ok
+test_multiple_fields_and_source_unchanged (test_lab.FieldTests.test_multiple_fields_and_source_unchanged) ... ok
+test_no_fields (test_lab.FieldTests.test_no_fields) ... ok
+test_single_field_skips_missing_and_none_but_keeps_falsy (test_lab.FieldTests.test_single_field_skips_missing_and_none_but_keeps_falsy) ... ok
+test_list_is_printed_in_column_and_not_copied (test_lab.PrintingTests.test_list_is_printed_in_column_and_not_copied) ... ok
+test_print_return_metadata_arguments (test_lab.PrintingTests.test_print_return_metadata_arguments) ... ok
+test_scalar_and_none (test_lab.PrintingTests.test_scalar_and_none) ... ok
+test_empty_pipeline (test_lab.ProcessingTests.test_empty_pipeline) ... ok
+test_pipeline_preserves_first_case_and_transforms (test_lab.ProcessingTests.test_pipeline_preserves_first_case_and_transforms) ... ok
+test_sort_demo_both_versions (test_lab.ProcessingTests.test_sort_demo_both_versions) ... ok
+test_count_and_bounds (test_lab.RandomTests.test_count_and_bounds) ... ok
+test_inclusive_equal_endpoints (test_lab.RandomTests.test_inclusive_equal_endpoints) ... ok
+test_invalid_bounds_and_count (test_lab.RandomTests.test_invalid_bounds_and_count) ... ok
+test_random_calls_are_lazy (test_lab.RandomTests.test_random_calls_are_lazy) ... ok
+test_both_timers_measure_interval (test_lab.TimerTests.test_both_timers_measure_interval) ... ok
+test_exceptions_propagate_and_elapsed_time_is_printed (test_lab.TimerTests.test_exceptions_propagate_and_elapsed_time_is_printed) ... ok
+test_bool_option_validation (test_lab.UniqueTests.test_bool_option_validation) ... ok
+test_generator_and_iterator_protocol (test_lab.UniqueTests.test_generator_and_iterator_protocol) ... ok
+test_lazy_input (test_lab.UniqueTests.test_lazy_input) ... ok
+test_order_and_case_modes (test_lab.UniqueTests.test_order_and_case_modes) ... ok
+test_original_string_is_returned (test_lab.UniqueTests.test_original_string_is_returned) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.016s
+
+OK
