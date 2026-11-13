@@ -1,0 +1,82 @@
+Среда: Python 3.13.5
+
+$ python3 procedural.py 1 -5 4
+Дискриминант: 9
+Действительные корни: -2, -1, 1, 2
+
+$ python3 oop.py 1 -5 4
+Дискриминант: 9
+Действительные корни: -2, -1, 1, 2
+
+$ python3 functional.py 1 -5 4
+Дискриминант: 9
+Действительные корни: -2, -1, 1, 2
+
+$ python3 procedural.py 1 -2 1
+Дискриминант: 0
+Действительные корни: -1, 1
+
+$ python3 procedural.py 1 0 -16
+Дискриминант: 64
+Действительные корни: -2, 2
+
+$ python3 procedural.py 1 0 1
+Дискриминант: -4
+Действительных корней нет.
+
+$ python3 procedural.py 1 5 4
+Дискриминант: 9
+Действительных корней нет.
+
+$ python3 procedural.py 1 -4 0
+Дискриминант: 16
+Действительные корни: -2, 0, 2
+
+$ python3 procedural.py 0 2 -8
+Дискриминант: 4
+Действительные корни: -2, 2
+
+$ python3 procedural.py 0 0 7
+Дискриминант: 0
+Действительных корней нет.
+
+$ python3 procedural.py 0 0 0
+Дискриминант: 0
+Любое действительное число является корнем.
+
+$ python3 functional.py bad -5 4
+[Переданные строки ввода: 'nan', 'inf', '1']
+Ошибка в A: нужно конечное вещественное число. Повторите ввод.
+Введите A: Ошибка в A: нужно конечное вещественное число. Повторите ввод.
+Введите A: Ошибка в A: нужно конечное вещественное число. Повторите ввод.
+Введите A: Дискриминант: 9
+Действительные корни: -2, -1, 1, 2
+
+$ python3 oop.py
+[Переданные строки ввода: '1', '-5', '4']
+Введите A: Введите B: Введите C: Дискриминант: 9
+Действительные корни: -2, -1, 1, 2
+
+$ python3 procedural.py 1e300 -5e300 4e300
+Дискриминант: 9e+600
+Действительные корни: -2, -1, 1, 2
+
+$ python3 -m unittest -v test_lab01.py
+test_eof_is_handled_without_traceback (test_lab01.CommandLineTests.test_eof_is_handled_without_traceback) ... ok
+test_every_program_handles_correct_and_invalid_arguments (test_lab01.CommandLineTests.test_every_program_handles_correct_and_invalid_arguments) ... ok
+test_invalid_coefficient_rejected_by_all_solvers (test_lab01.EquationTests.test_invalid_coefficient_rejected_by_all_solvers) ... ok
+test_irrational_roots_satisfy_equation (test_lab01.EquationTests.test_irrational_roots_satisfy_equation) ... ok
+test_large_coefficients_do_not_overflow (test_lab01.EquationTests.test_large_coefficients_do_not_overflow) ... ok
+test_oop_discriminant (test_lab01.EquationTests.test_oop_discriminant) ... ok
+test_real_roots_and_degenerate_cases (test_lab01.EquationTests.test_real_roots_and_degenerate_cases) ... ok
+test_small_root_is_not_lost_to_cancellation (test_lab01.EquationTests.test_small_root_is_not_lost_to_cancellation) ... ok
+test_correct_argv_does_not_request_input (test_lab01.InputTests.test_correct_argv_does_not_request_input) ... ok
+test_extra_arguments_are_rejected (test_lab01.InputTests.test_extra_arguments_are_rejected) ... ok
+test_invalid_argument_retried_until_finite (test_lab01.InputTests.test_invalid_argument_retried_until_finite) ... ok
+test_missing_coefficients_are_requested (test_lab01.InputTests.test_missing_coefficients_are_requested) ... ok
+test_nonfinite_and_overflow_values_are_rejected (test_lab01.InputTests.test_nonfinite_and_overflow_values_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.116s
+
+OK
